@@ -1,2 +1,2 @@
-# Java---ONE
+# Java - ONE
 Formação focada em Java do Projeto - ONE
