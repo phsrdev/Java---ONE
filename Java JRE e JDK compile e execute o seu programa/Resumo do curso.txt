@@ -20,3 +20,41 @@ Java Virtual Machine (JVM)
 linguagem Java
 Bibliotecas Java (API)
 
+Aula 2 Instalação e o primeiro programa:
+
+JDK = JRE + ferramentas de desenvolvimento
+JRE = JVM + bibliotecas
+JVM = Java Virtual Machine
+
+Sobre a compilação e execução de código Java:
+
+1 - Durante a compilação acontece uma verificação sintática do código fonte.
+
+2 - Na compilação e execução podem aparecer erros.
+
+3 - A JVM lê e executa o Bytecode.
+
+4 - O compilador gera o Bytecode caso não tenha nenhum erro sintático no código fonte.
+
+Comandos para compilar e rodar o código:
+
+Passamos a extensão do arquivo (.java) para o comando javac:
+
+javac Programa.java
+
+E para chamar a JVM usamos apenas o nome da classe (sem extensão):
+
+java Programa
+
+O nome deve ser exatamente igual ao nome da classe criada, inclusive as letras maiúsculas e minúsculas! Lembre-se que o Java é case-sensitive.
+
+Resumo aula 2 escrevi o meu primeiro código Java e aprendi:
+
+qual é a diferença entre JRE e JDK
+como compilar um código fonte Java na linha de comando (javac)
+como executar o Bytecode na linha de comando (java)
+um programa Java deve estar escrito dentro de uma classe (class)
+toda instrução Java deve ser finalizada com ;
+para abrir e fechar um bloco usaremos as chaves {}
+um programa Java possui uma entrada que é uma função (método) main
+para imprimir algo no console usamos a instrução System.out.println()
